@@ -1,0 +1,48 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 400px;
+  height: 250px;
+  margin: 40px auto;
+  box-shadow: 0 0 3px 0 #cecece;
+  background-color: #EEEEEE;
+}
+
+.login__form-username {
+  width: 246px;
+  height: 36px;
+  border: solid 1px #cecece;
+  border-radius: 4px;
+  padding-left: 14px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.login__form-password {
+  width: 246px;
+  height: 36px;
+  border-radius: 4px;
+  border: solid 1px #cecece;
+  padding-left: 14px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.login__form-button {
+  width: 246px;
+  height: 30px;
+  margin: 5px 0;
+  color: white;
+  background-color: #B2DFFC;
+  border: solid 1px #B2DFFC;
+  border-radius: 4px;
+}
